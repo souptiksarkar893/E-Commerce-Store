@@ -1,0 +1,29 @@
+/* ProductDetail.css */
+
+.product-detail-container {
+  padding: 2rem 0;
+}
+
+.product-image {
+  max-height: 500px;
+  object-fit: cover;
+}
+
+.product-price {
+  color: #ff4500;
+  margin: 1rem 0;
+}
+
+.product-detail-container .btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.product-detail-container .btn-success:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+.alert-success {
+  margin-top: 1rem;
+}

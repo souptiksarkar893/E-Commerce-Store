@@ -1,0 +1,37 @@
+/* ProductItem.css */
+
+.product-list-item {
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  background-color: #f9f9f9;
+}
+
+.product-list-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.product-card-image {
+  height: 200px;
+  object-fit: cover;
+}
+
+.product-list-item .btn-group {
+  display: flex;
+  gap: 10px;
+}
+
+.ProductItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ProductItem .btn-group {
+  display: flex;
+  gap: 10px;
+}
